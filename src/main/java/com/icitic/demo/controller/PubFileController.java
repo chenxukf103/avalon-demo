@@ -12,4 +12,5 @@ import org.springframework.stereotype.Controller;
 public class PubFileController extends BaseController {
     @Autowired
     private PubFileService pubFileService;
+
 }
