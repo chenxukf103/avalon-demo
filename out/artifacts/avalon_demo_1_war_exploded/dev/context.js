@@ -1,1 +1,0 @@
-var $$context = {contextPath:'',homePage:'dev/index.html',sysVersion:'V0.0.160303',visualContextRootPath:'http://localhost:8080/site',mode:'development'};
