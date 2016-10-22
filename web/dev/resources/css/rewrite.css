@@ -1,0 +1,134 @@
+.form-horizontal .control-label {
+	font-weight: bold;
+}
+.form-horizontal .control-label{
+	width: 100px;
+}
+.form-horizontal .label-text{
+	width: 200px;
+	margin-right: 20px;
+}
+.form-horizontal .controls{
+	margin-left: 120px;
+	*margin-left:0px;
+}
+.form-horizontal .controls .form-control{
+	width: 100%;
+}
+.query-card .form-horizontal .control-group{
+	margin-bottom: 20px;
+}
+.form-horizontal.no-margin .control-group{
+	margin-bottom: 0px;
+}
+.form-horizontal .control-group{
+	margin-bottom: 23px;
+}
+.form-horizontal .controls input{
+	width: 100%;
+}
+.form-horizontal .controls .inline input{
+	width:auto;
+}
+
+.dropdown-menu,.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append,select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.btn {
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	border-radius: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	box-shadow: none !important;
+}
+.btn-mini{
+	padding: 1px 6px!important;
+}
+.btn-large {
+    padding: 7px 16px;
+	font-size: 16px;
+}
+.btn-wrap{width:100%!important;}
+.btn-padding {
+	min-width: 110px;
+	padding: 6px 12px;
+}
+
+/* btn start */
+.btn-group > .btn:first-child ,.btn-group > .btn:last-child, .btn-group > .dropdown-toggle{
+    margin-left: 0;
+    border-radius: 0!important;
+}
+.btn-danger {
+	color: #fff;
+	background-color: #ef473a;
+	border-color: #ed3122;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+	color: #fff;
+	background-color: #ec2414;
+	border-color: #c31d10;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #387ef5;
+	border-color: #206ef4;
+	border:1px solid #206ef4;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #387ef5;
+	border-color: #206ef4
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #1165f3;
+	border-color: #0a52cc
+}
+.btn-default {
+    color: #777;
+    background-color: #fff;
+    border-color: #e7e7eb;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #ebebeb;
+    border-color: #c6c6cf;
+}
+.table-bordered thead:first-child tr:first-child th:first-child, .table-bordered tbody:first-child tr:first-child td:first-child{
+	border-radius:0px !important;
+}
+.table-bordered thead:first-child tr:first-child th:last-child, .table-bordered tbody:first-child tr:first-child td:last-child{
+	border-radius:0px !important;
+}
+.table-bordered thead:last-child tr:last-child th:last-child, .table-bordered tbody:last-child tr:last-child td:last-child, .table-bordered tfoot:last-child tr:last-child td:last-child{
+	border-radius:0px !important;
+}
+.table-bordered,.table-bordered thead:last-child tr:last-child th:first-child, .table-bordered tbody:last-child tr:last-child td:first-child, .table-bordered tfoot:last-child tr:last-child td:first-child{
+	border-radius:0px !important;
+}
+.table-bordered th, .table-bordered td,.table th, .table td{
+	border-color:#e7e7eb !important;
+}
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly]{
+	background: #fefefe;
+}
+/* btn end */
+
+/* datepicker start */
+.oni-datepicker-input-wrapper .oni-datepicker-input-position input{height:26px!important;line-height:7px!important;}
+.oni-datepicker-input-wrapper .oni-datepicker-input-position .oni-datepicker-tip{top:7px!important;}
+/* datepicker end */

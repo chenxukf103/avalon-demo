@@ -1,0 +1,36 @@
+@import url('./oniui-common.css');
+@import url('./scrollbar/avalon.scrollbar.css');
+@import url('./dropdown/avalon.dropdown.css');
+/* @import url('./loading/avalon.loading.css'); */
+@import url('./button/avalon.button.css');
+/* @import url('./pager/avalon.pager.css');
+@import url('./smartgrid/avalon.smartgrid.css'); */
+@import url('./notice/avalon.notice.css');
+@import url('./spinner/avalon.spinner.css');
+@import url('./dialog/avalon.dialog.css');
+@import url('./checkboxlist/avalon.checkboxlist.css');
+@import url('./slider/avalon.slider.css');
+@import url('./datepicker/avalon.coupledatepicker.css');
+@import url('./datepicker/avalon.datepicker.css');
+@import url('./flipswitch/avalon.flipswitch.css');
+
+.oni-dropdown .oni-dropdown-source{
+	background-color: #ffffff;
+	border: 1px solid #e7e7eb;
+}
+.oni-dropdown .oni-dropdown-source .oni-dropdown-input{
+	height: 20px;
+	padding: 6px 21px 6px 10px;
+}
+.oni-dropdown .oni-dropdown-icon{
+	top:-23px;
+}
+.oni-spinner .oni-textbox .oni-textbox-input-wrap .oni-textbox-input{
+	width: 40px !important;
+}
+.oni-spinner .oni-btn,.oni-spinner .oni-textbox,.oni-spinner .oni-btn.oni-state-disabled,.oni-datepicker-input-wrapper{
+	border-color:#e7e7eb !important;
+}
+.oni-datepicker-input-wrapper .oni-datepicker-input-position input{
+	width: 99px !important;
+}

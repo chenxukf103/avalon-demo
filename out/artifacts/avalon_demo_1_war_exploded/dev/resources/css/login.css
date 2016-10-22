@@ -1,0 +1,56 @@
+@import url('./common.css');
+@import url('./bootstrap/css/bootstrap-2.2.css');
+@import url('./rewrite.css');
+.form-signin {
+	max-width: 342px;
+	width: 342px;
+	*width: 300px;
+	margin: 50px auto 20px;
+	background-color: #fff;                             
+	border: 1px solid #e5e5e5;
+	border-radius:6px;
+}
+.form-signin .form-signin-heading{
+	font-size: 18px;
+	margin-bottom: 18px;
+	background:url(../imgs/user-icon.png) no-repeat 3px 10px ;
+	padding-left:25px;
+	margin-left:20px;
+}
+.form-signin-content{
+	width:342px;
+	border-top:1px solid  #e5e5e5 ;
+	padding:15px 0;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.form-signin input[type="text"], .form-signin input[type="password"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+.input-block-level{
+	padding-left:25px!important;
+	*min-height: 10px!important;
+	*width: 50%!important;
+	width:300px!important ;
+	margin-left:20px;
+    right:-20px;
+}
+.input-block-level[type="text"]{
+	background:url(../imgs/user-icon2.png) no-repeat 5px 10px ;
+}
+.input-block-level[type="password"]{
+	background:url(../imgs/psw-icon.png) no-repeat 5px 10px ;
+}
+.controls{
+	margin-left:20px;
+	margin-right:20px;
+}
+ .form-signin .checkbox {
+ margin-left:20px;
+ }
+.btn-large{border:0!important;}

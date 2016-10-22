@@ -1,0 +1,15 @@
+<div class="breadcrumb">
+    <div class="breadcrumb-list" style="margin-left: 0px;">
+        <div class="breadcrumb-item">
+            <a class="breadcrumb-link" href="#!/">首页</a>
+        </div>
+        <div class="breadcrumb-item">
+        	<span class="breadcrumb-division">&gt;</span >
+            <a class="breadcrumb-link" ms-click="toState(curMenu.resValue,e)">{{curMenu.resName}}</a>
+        </div>
+        <div class="breadcrumb-item" ms-if="curSubMenu.resValue">
+       		 <span class="breadcrumb-division">&gt;</span >
+            <a class="breadcrumb-link" ms-click="toState(curSubMenu.resValue,e)">{{curSubMenu.resName}}</a>
+        </div>
+    </div>
+</div>
